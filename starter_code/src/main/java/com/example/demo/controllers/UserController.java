@@ -1,10 +1,10 @@
 package com.example.demo.controllers;
 
-import java.util.Optional;
 
-import org.hibernate.internal.build.AllowSysOut;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,6 +23,8 @@ import com.example.demo.model.requests.CreateUserRequest;
 @RestController
 @RequestMapping("/api/user")
 public class UserController {
+
+	private final Logger log = LogManager.getLogger(UserController.class);
 	
 	@Autowired
 	private UserRepository userRepository;
@@ -51,12 +53,15 @@ public class UserController {
 		Cart cart = new Cart();
 
 		if(createUserRequest.getPassword().length() <7 || !createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())){
+			log.debug("password is short or the password and confirmed password don't match.");
 			return ResponseEntity.badRequest().build();
 		}
 		user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
 		cartRepository.save(cart);
 		user.setCart(cart);
 		userRepository.save(user);
+
+		log.info("user with the username of "+createUserRequest.getUsername()+" has been successfully created");
 		return ResponseEntity.ok(user);
 	}
 	
