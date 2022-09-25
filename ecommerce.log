@@ -1,0 +1,26 @@
+2022-09-22 23:42:31,385 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Isras-MacBook-Pro.local with PID 90627 (/Users/israragheb/Desktop/nd035-c4-Security-and-DevOps/starter_code/target/classes started by israragheb in /Users/israragheb/Desktop/nd035-c4-Security-and-DevOps)
+2022-09-22 23:42:31,390 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-22 23:42:31,391 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-09-22 23:42:35,876 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2022-09-22 23:42:36,400 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 5.313 seconds (JVM running for 11.672)
+2022-09-22 23:43:21,820 DEBUG c.e.d.c.UserController [http-nio-8080-exec-2] password is short or the password and confirmed password don't match.
+2022-09-22 23:43:32,066 INFO c.e.d.c.UserController [http-nio-8080-exec-4] user with the username of OmarRagheb has been successfully created
+2022-09-22 23:46:56,150 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Isras-MacBook-Pro.local with PID 91244 (/Users/israragheb/Desktop/nd035-c4-Security-and-DevOps/starter_code/target/classes started by israragheb in /Users/israragheb/Desktop/nd035-c4-Security-and-DevOps)
+2022-09-22 23:46:56,162 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-22 23:46:56,163 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-09-22 23:47:00,093 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2022-09-22 23:47:00,704 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 4.949 seconds (JVM running for 12.08)
+2022-09-22 23:47:04,361 INFO c.e.d.c.UserController [http-nio-8080-exec-2] user with the username of OmarRagheb has been successfully created
+2022-09-22 23:47:08,042 DEBUG c.e.d.c.UserController [http-nio-8080-exec-3] password is short or the password and confirmed password don't match.
+2022-09-22 23:47:19,755 INFO c.e.d.c.UserController [http-nio-8080-exec-5] user with the username of IsraRagheb has been successfully created
+2022-09-22 23:47:26,458 INFO c.e.d.c.UserController [http-nio-8080-exec-6] user with the username of AsmaRagheb has been successfully created
+2022-09-22 23:47:30,513 DEBUG c.e.d.c.UserController [http-nio-8080-exec-7] password is short or the password and confirmed password don't match.
+2022-09-22 23:48:05,536 DEBUG c.e.d.c.CartController [http-nio-8080-exec-3] item with the id of 3 was not found.
+2022-09-22 23:48:20,843 DEBUG c.e.d.c.CartController [http-nio-8080-exec-5] user with the username of OmaRagheb was not found.
+2022-09-22 23:48:48,612 INFO c.e.d.c.OrderController [http-nio-8080-exec-8] The order of the user with the username of OmarRagheb has been successfully submitted.
+2022-09-22 23:49:25,922 DEBUG c.e.d.c.OrderController [http-nio-8080-exec-9] user with the username of OmaRagheb was not found.
+2022-09-22 23:49:30,918 INFO c.e.d.c.OrderController [http-nio-8080-exec-10] The order of the user with the username of AsmaRagheb has been successfully submitted.
+2022-09-22 23:49:36,353 INFO c.e.d.c.OrderController [http-nio-8080-exec-1] The order of the user with the username of IsraRagheb has been successfully submitted.
+2022-09-22 23:49:37,430 DEBUG c.e.d.c.OrderController [http-nio-8080-exec-2] user with the username of IsrRagheb was not found.
+2022-09-23 00:12:09,615 DEBUG c.e.d.c.CartController [http-nio-8080-exec-2] user with the username of AsmarRagheb was not found.
+2022-09-23 00:12:46,110 DEBUG c.e.d.c.OrderController [http-nio-8080-exec-3] user with the username of IsrRagheb was not found.
